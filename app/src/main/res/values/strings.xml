@@ -1,0 +1,9 @@
+<resources>
+    <string name="s_appName">Homework_10</string>
+
+    <string name="s_ball">Ball</string>
+    <string name="s_list">C/E List</string>
+    <string name="s_heart">Heart</string>
+
+    <string name="s_start">Please choose item in\n Navigation bar menu!</string>
+</resources>

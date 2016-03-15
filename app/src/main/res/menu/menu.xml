@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mi_Ball_MM"
+        android:title="@string/s_ball"/>
+
+    <item
+        android:id="@+id/mi_List_MM"
+        android:title="@string/s_list"/>
+
+    <item
+        android:id="@+id/mi_Heart_MM"
+        android:title="@string/s_heart"/>
+
+</menu>

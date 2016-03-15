@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="c_bg_ball_AM">#0026ff</color>
+    <color name="c_bg_list_AM">#00b118</color>
+    <color name="c_bg_heart_AM">#b40000</color>
+
+    <color name="c_text_AM">#000000</color>
+
+    <color name="c_bg_ball_FB">#ffffff</color>
+    <color name="c_bg_list_FL">#ffffff</color>
+    <color name="c_bg_heart_FH">#ffffff</color>
+</resources>
