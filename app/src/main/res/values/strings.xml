@@ -5,5 +5,7 @@
     <string name="s_list">C/E List</string>
     <string name="s_heart">Heart</string>
 
-    <string name="s_start">Please choose item in\n Navigation bar menu!</string>
+    <string name="s_start">
+        Please choose item in\n Navigation bar menu!
+    </string>
 </resources>
