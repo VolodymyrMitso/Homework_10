@@ -8,14 +8,14 @@ import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RelativeLayout mRelativeLayout_Main_AM;
+    private RelativeLayout mRelativeLayout_Layout_AM;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        mRelativeLayout_Main_AM = (RelativeLayout) findViewById(R.id.rl_Main_AM);
+        mRelativeLayout_Layout_AM = (RelativeLayout) findViewById(R.id.rl_Layout_AM);
     }
 
     @Override
@@ -27,16 +27,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.mi_Ball_MM:
-                mRelativeLayout_Main_AM.setBackgroundColor(getResources().getColor(R.color.c_bg_ball_AM));
+            case R.id.mi_Ball:
+                mRelativeLayout_Layout_AM.setBackgroundColor(getResources().getColor(R.color.c_bg_ball_AM));
                 updateFragment(new BallFragment());
                 return true;
-            case R.id.mi_List_MM:
-                mRelativeLayout_Main_AM.setBackgroundColor(getResources().getColor(R.color.c_bg_list_AM));
+            case R.id.mi_List:
+                mRelativeLayout_Layout_AM.setBackgroundColor(getResources().getColor(R.color.c_bg_list_AM));
                 updateFragment(new ListFragment());
                 return true;
-            case R.id.mi_Heart_MM:
-                mRelativeLayout_Main_AM.setBackgroundColor(getResources().getColor(R.color.c_bg_heart_AM));
+            case R.id.mi_Heart:
+                mRelativeLayout_Layout_AM.setBackgroundColor(getResources().getColor(R.color.c_bg_heart_AM));
                 updateFragment(new HeartFragment());
                 return true;
             default:
@@ -50,4 +50,6 @@ public class MainActivity extends AppCompatActivity {
                 .replace(R.id.fl_FragmentContainer_AM, baseFragment)
                 .commitAllowingStateLoss();
     }
+
+
 }

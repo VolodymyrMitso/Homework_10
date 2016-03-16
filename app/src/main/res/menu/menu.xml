@@ -3,15 +3,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/mi_Ball_MM"
+        android:id="@+id/mi_Ball"
         android:title="@string/s_ball"/>
 
     <item
-        android:id="@+id/mi_List_MM"
+        android:id="@+id/mi_List"
         android:title="@string/s_list"/>
 
     <item
-        android:id="@+id/mi_Heart_MM"
+        android:id="@+id/mi_Heart"
         android:title="@string/s_heart"/>
 
 </menu>
