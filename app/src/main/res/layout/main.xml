@@ -9,7 +9,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/d_size_7dp"
 
         android:id="@+id/fl_FragmentContainer_AM">
 

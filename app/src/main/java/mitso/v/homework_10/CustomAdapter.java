@@ -41,7 +41,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         viewHolder.getTextView().setText(items.get(position));
 
         /** recycler view scroll animation - every new item move */
-        viewHolder.itemView.setAnimation(getAnimation(viewHolder.itemView.getWidth()));
+        viewHolder.itemView.setAnimation(getAnimationSet(viewHolder.itemView.getWidth()));
     }
 
     @Override
@@ -49,7 +49,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         return items.size();
     }
 
-    private AnimationSet getAnimation(float width) {
+    private AnimationSet getAnimationSet(float width) {
         AnimationSet setAnimation = new AnimationSet(true);
         TranslateAnimation translateAnimation = new TranslateAnimation(-width,0,0,0);
         setAnimation.addAnimation(translateAnimation);

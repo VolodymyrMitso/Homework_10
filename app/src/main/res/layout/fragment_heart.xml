@@ -1,9 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/c_bg_heart_FH">
 
-</FrameLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_heart"
+
+        android:id="@+id/iv_Heart_FH"
+
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/space"
+        android:layout_marginBottom="50dp" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/c_seekBar"
+
+        android:id="@+id/sb_Alpha_FH"
+        android:max="100"
+        android:progress="100"
+
+        android:layout_below="@+id/space"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/c_seekBar"
+
+        android:id="@+id/sb_Rotate_FH"
+        android:max="360"
+        android:progress="0"
+
+        android:layout_below="@id/sb_Alpha_FH"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/c_seekBar"
+
+        android:id="@+id/sb_Scale_FH"
+        android:max="100"
+        android:progress="100"
+
+        android:layout_below="@id/sb_Rotate_FH"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

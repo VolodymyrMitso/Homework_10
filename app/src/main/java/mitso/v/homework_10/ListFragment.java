@@ -10,9 +10,6 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.view.animation.AnimationSet;
 import android.view.animation.TranslateAnimation;
-import android.widget.FrameLayout;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -38,7 +35,7 @@ public class ListFragment extends BaseFragment {
         mRecyclerView.setLayoutManager(mLayoutManager);
 
         /** recycler view start animation - all visible items move */
-        mRecyclerView.setAnimation(getAnimation(screenWidth));
+        mRecyclerView.setAnimation(getAnimationSet(screenWidth));
 
         return view;
     }
@@ -50,7 +47,7 @@ public class ListFragment extends BaseFragment {
         return items;
     }
 
-    private AnimationSet getAnimation(float width) {
+    private AnimationSet getAnimationSet(float width) {
         AnimationSet setAnimation = new AnimationSet(true);
         TranslateAnimation translateAnimation = new TranslateAnimation(-width,0,0,0);
         setAnimation.addAnimation(translateAnimation);

@@ -6,13 +6,13 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_margin="@dimen/d_size_10dp"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/d_size_7dp"
         android:background="@color/c_item"
 
         android:id="@+id/tv_item_FL"
 
-        android:textSize="20sp"
+        android:textSize="@dimen/d_textSize_17sp"
         android:gravity="center"
         android:textColor="@color/c_itemText"/>
 

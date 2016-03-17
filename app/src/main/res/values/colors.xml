@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#ffffff</color>
 
     <color name="c_bg_ball_AM">#0026ff</color>
     <color name="c_bg_list_AM">#00b118</color>
@@ -16,4 +16,6 @@
 
     <color name="c_item">#177300</color>
     <color name="c_itemText">#ffffff</color>
+
+    <color name="c_seekBar">#b40000</color>
 </resources>

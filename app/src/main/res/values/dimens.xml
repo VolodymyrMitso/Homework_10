@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="d_size_10dp">10dp</dimen>
+    <dimen name="d_size_7dp">7dp</dimen>
+
+    <dimen name="d_textSize_17sp">17sp</dimen>
 </resources>

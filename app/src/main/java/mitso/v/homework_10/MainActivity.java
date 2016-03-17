@@ -50,6 +50,4 @@ public class MainActivity extends AppCompatActivity {
                 .replace(R.id.fl_FragmentContainer_AM, baseFragment)
                 .commitAllowingStateLoss();
     }
-
-
 }
